@@ -7,4 +7,13 @@ public class Animal
     public string Category { get; set; }
     public double Weight { get; set; }
     public string Color { get; set; }
+    
+    public void Animals(Animal animal)
+    {
+        Id = animal.Id;
+        Name = animal.Name;
+        Category = animal.Category;
+        Weight = animal.Weight;
+        Color = animal.Color;
+    }
 }
